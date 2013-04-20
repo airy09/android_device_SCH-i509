@@ -201,8 +201,11 @@ $(call inherit-product, device/common/gps/gps_ww_supl.mk)
 # LDPI assets
 PRODUCT_LOCALES += ldpi mdpi
 
-PRODUCT_NAME := full_SCH_i509	
+PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
+PRODUCT_NAME := full_SCH_i509
 PRODUCT_DEVICE := SCH-i509
 PRODUCT_MODEL := SCH-i509
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
+
+

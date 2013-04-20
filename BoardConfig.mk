@@ -35,8 +35,8 @@ TARGET_CPU_ABI := armeabi-v6l
 TARGET_CPU_ABI2 := armeabi
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/samsung/SCH-i509/prebuilt/kernel
-#TARGET_PREBUILT_RECOVERY_KERNEL := device/samsung/SCH-i509/prebuilt/recovery_kernel
+TARGET_PREBUILT_KERNEL := device/samsung/SCH-i509/kernel
+TARGET_PREBUILT_RECOVERY_KERNEL := device/samsung/SCH-i509/recovery_kernel
 BOARD_NAND_PAGE_SIZE := 4096 -s 128
 BOARD_KERNEL_CMDLINE := 
 BOARD_KERNEL_BASE := 0x13000000
