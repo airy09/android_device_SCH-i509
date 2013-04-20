@@ -1,0 +1,2 @@
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/device_SCH-i509.mk
